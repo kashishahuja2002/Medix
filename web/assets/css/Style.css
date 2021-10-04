@@ -1,0 +1,521 @@
+/********** Starting CSS  **********/
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #85C227;
+}
+
+button
+{
+    background-color: #85C227;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Header */
+.header
+{
+    margin-left: 40px;
+}
+
+.header h1{
+    display: inline;
+    position: relative;
+    top: -25px;
+    left: 15px;
+    font-size: 50px;
+    color: #85C227;
+}
+
+.header .call-icon
+{
+    position: absolute;
+    top: 30px;
+    right: 600px;
+}
+
+.header h3.call{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 450px;
+}
+
+.header .mail-icon
+{
+    position: absolute;
+    top: 32px;
+    right: 290px;
+}
+
+.header h3.mail{
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+/* Sub header */
+.sub-header
+{
+    background-color: #85C227;
+    padding: 0.1px;
+}
+.sub-header ul li
+{
+    display: inline-block;
+}
+
+.sub-header ul li a 
+{
+    color: white;
+    background-color: #85C227;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+.sub-header ul li a.active
+{
+    background: black;
+    color: white;
+}
+
+.sub-header ul li a:hover
+{
+    background-color: black !important;
+}
+
+.sub-header .login
+{
+    position: absolute;
+    right: 40px;
+    top: 106px;
+}
+
+/* Footer */
+.footer
+{
+    background-color: #333333;
+}
+
+.footer .section
+{
+    display: inline-block;
+    color: white;
+    width: calc(25% - 45px);
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.footer .section h4
+{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    margin-left: 40px;
+}
+
+.footer .section li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.footer .section li a
+{
+    color: white;
+    font-size: 20px;
+}
+
+.footer .section li a:hover
+{
+    color: #85C227;
+    font-size: 25px;
+}
+
+.footer .section li p
+{
+    font-size: 20px;
+}
+
+/* Sub footer */
+.sub-footer
+{
+    background-color: #85C227;
+    text-align: center;
+    font-size: 18px;
+    padding: 0.1px;
+    color: white;
+}
+
+/********** Index **********/
+
+/* Image Banner */
+.banner{
+    text-align: center;
+}
+.banner img 
+{
+    margin: 15px 0px;
+}
+
+.banner h1
+{
+    color: #85C227;
+    font-size: 70px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+.banner a
+{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    position: relative;
+    top: -100px;
+    font-size: 18px;
+    border: 2px solid white;
+    background-color: #85C227;
+    color: white;
+}
+
+.banner a:hover
+{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+/* Services */
+.services
+{
+    text-align: center;
+}
+
+.services h2
+{
+    font-size: 50px;
+    color: #85C227;
+}
+
+.services .box
+{
+    display: inline-block;
+    margin: 30px;
+}
+
+.services img
+{
+    width: 400px;
+    height: 300px;
+}
+
+.services figcaption {
+	height: 40px;
+	margin-top: -60px;
+    padding: 10px;
+	text-align: center;
+	color: white;
+	background: black;
+	opacity: 0.8;
+    font-size: 28px;
+}
+
+.services button
+{
+    margin: 30px;
+}
+
+/********** About **********/
+.about .left-panel, .about .right-panel
+{
+    display: inline;
+}
+
+.about .left-panel img
+{
+    display: inline;
+    margin: 50px;
+    width: 30%;
+}
+
+.about .right-panel
+{
+    position: absolute;
+    top: 140px;
+    left: 550px;
+    padding: 60px;
+}
+
+.about .right-panel h1
+{
+    color: #85C227;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about .right-panel p
+{
+    font-size: 28px;
+}
+
+/********** Services **********/
+.all-services h1
+{
+    color: #85C227;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.all-services a:hover .box
+{
+    color: black;
+    box-shadow: 1px 1px 7px rgb(19, 18, 18);
+    border: 1px solid black;
+}
+
+.all-services .box
+{
+    margin: 50px 100px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px rgb(107, 107, 107);
+    position: relative;
+    padding: 30px;
+}
+
+.all-services .box .pic img
+{
+    display: inline-block;
+    width: 18%;
+    border-radius: 5px;
+}
+
+.all-services .box .content
+{
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    margin-right: 15px;
+}
+
+.all-services .box .content h3
+{
+    font-size: 32px;
+}
+
+.all-services .box .content p
+{
+    font-size: 26px;
+}
+
+/********** Contact **********/
+.contact
+{
+    margin: 50px;
+}
+
+.contact .section
+{
+    display: inline-block;
+    color: black;
+    width: calc(50% - 45px);
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.contact .section h4
+{
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0;
+    margin-left: 40px;
+    color: #85C227;
+}
+
+.contact .section li
+{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.contact .section li a
+{
+    color: black;
+    font-size: 20px;
+}
+
+.contact .section li a:hover
+{
+    color: #85C227;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact .section li p
+{
+    font-size: 20px;
+}
+
+/********** Login **********/
+.login h1
+{
+    color: #85C227;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.login .box
+{
+    margin: 50px 400px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 7px rgb(107, 107, 107);
+    position: relative;
+    padding: 30px;
+}
+
+.login .box p
+{
+    font-size: 20px;
+}
+
+.login .box input
+{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.login .box button
+{
+    margin: 20px;
+    padding: 10px 15px;
+}
+
+.login .box a:hover
+{
+    color: #85C227 !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/********** Login **********/
+.select-style
+{
+    padding: 10px 15px; 
+    border-radius: 20px;
+    border: 1px solide black;
+}
+
+/********** User Index **********/
+.sub-header .be-an-expert
+{
+    position: absolute;
+    right: 275px;
+    top: 106px;
+}
+
+.sub-header .profile
+{
+    position: absolute;
+    right: 160px;
+    top: 106px;
+}
+
+.sub-header .logout
+{
+    position: absolute;
+    right: 40px;
+    top: 106px;
+}
+
+/********** Individual Service **********/
+.blog-link
+{
+    padding: 0;
+}
+
+.blog-link li
+{
+    display: inline;
+}
+
+.blog-link li a
+{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #85C227;
+}
+
+.blog-link li a:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.blog-link.a-z li a
+{
+    padding: 7px 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+/********** All Users **********/
+.all-users
+{
+    text-align: center;
+}
+
+.all-users h2
+{
+    color: #85C227;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+table
+{
+    margin: 50px;
+    text-align: center;
+    width: calc(100% - 100px);
+}
+
+table td 
+{
+    border: 1px solid black;
+}
+
+table tr:first-child td 
+{
+    background-color: #85C227;
+}
